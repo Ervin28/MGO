@@ -1,4 +1,5 @@
 import "./Homepage.css"
+import ProfileDropdownMenu from "./ProfileScreen/ProfileDropdownMenu";
 
 
 function Card({ imageSrc, text }) {
@@ -52,7 +53,7 @@ function Header() {
                 <div className="header_center">
                     <img src="images/mess.png" alt="My Log" className="header_center_buttons" />
                     <img src="images/fav.png" alt="My Lo" className="header_center_buttons" />
-                    <button className="button">Account</button>
+                    <ProfileDropdownMenu/>
                 </div>
                 <div className="header_right">
                     <button className="button">New Advertising</button>
@@ -80,6 +81,8 @@ function Header() {
             <div className="footer">
                 <p> contacts</p>
             </div>
+
+
         </div>
     );
 }
