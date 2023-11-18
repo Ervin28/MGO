@@ -1,5 +1,7 @@
 import "./Homepage.css"
-import ProfileDropdownMenu from "./ProfileDropdownMenu";
+import {Footer, Header} from "../Headre-Footer/Header-Footer";
+
+
 
 
 function Card({ imageSrc, text }) {
@@ -90,7 +92,6 @@ function HomePage(){
                 <Card imageSrc="images/dress.jpg" text="Clothes" />
                 <Card imageSrc="images/house.jpg" text="Household" />
                 <Card imageSrc="images/fumes.jpg" text="Fragrances" />
-                {/* Ide add hozzá további kártyákat szükség szerint */}
             </div>
             <div>
                 <Footer/>
