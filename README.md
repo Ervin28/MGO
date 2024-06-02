@@ -18,10 +18,5 @@ IDE Compatibility: You need vsCode, WebStorm, or any other IDE capable of runnin
 Emulator: An emulator is necessary for app simulation and testing. JetBrains IntelliJ IDEA is one recommended option.
 Further information and detailed instructions for the mobile application setup can be found in the readme file inside the "App" folder.
 
-Developer Contact
-For any inquiries or additional information, please contact:
 
-Name: Mihácsa Nándor
-      Mihácsa Ervin
-      Vernes Dávid
 Please note that this ReadMe provides a general guide for starting with the MGO project. For more detailed, step-by-step instructions, always refer to the specific readme files in the respective project folders.
